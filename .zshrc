@@ -28,7 +28,9 @@ ALIASES="$ZSH_CONFIG_PATH/aliases"
 
 
 # 載入 aliases
-source $ALIASES/zsh.sh
+for file in $ALIASES/*.sh; do
+  source $file
+done
 
 
 # 初始化 zplug
