@@ -1,6 +1,8 @@
 # Zelus 
 
-<img src="./assets/zelus.png" width="250" height="250" alt="logo">
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="./assets/zelus.png" width="250" height="250" alt="logo" >
+</div>
 
 這是一份跨平台（macOS、Amazon Linux、Ubuntu）自動化安裝與管理的 Zsh 設定檔，整合常用套件、主題、alias 及自動依賴安裝，適合開發者快速建立一致的 shell 環境。
 
