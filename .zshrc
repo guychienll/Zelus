@@ -61,6 +61,8 @@ fi
 zplug load
 
 
+source <(kubectl completion zsh)
+
 # powerlevel10k
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
